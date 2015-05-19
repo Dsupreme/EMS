@@ -1,0 +1,49 @@
+/*CSS Document*/
+
+main {
+    min-height: 70vh;
+    padding: 4em 0 2.5em;
+    background: url("../image/main.png") bottom no-repeat ;
+}
+
+.nav-color {
+    background-color: #3FADA8 !important;
+    border-top: solid 2px #4D4D4D;
+}
+.footer-color {
+    background-color: #4D4D4D !important;
+}
+
+.reg_btn {
+    margin-top: 1.5em;
+}
+
+nav ul li.li-no-hover:hover {
+    background-color: transparent; }
+
+.login_btn {
+    color:#FFFFFF;
+}
+
+.login-input-box {
+    height: 2em !important;
+}
+
+
+#username::-webkit-input-placeholder { /* WebKit browsers */ color:    #FFFFFF; }
+#username:-moz-placeholder { /* Mozilla Firefox 4 to 18 */   color:    #FFFFFF; opacity:  1; }
+#username::-moz-placeholder { /* Mozilla Firefox 19+ */      color:    #FFFFFF; opacity:  1; }
+#username:-ms-input-placeholder { /* Internet Explorer 10+ */color:    #FFFFFF; }
+
+#password::-webkit-input-placeholder { /* WebKit browsers */ color:    #FFFFFF; }
+#password:-moz-placeholder { /* Mozilla Firefox 4 to 18 */   color:    #FFFFFF; opacity:  1; }
+#password::-moz-placeholder { /* Mozilla Firefox 19+ */		 color:    #FFFFFF; opacity:  1; }
+#password:-ms-input-placeholder { /* Internet Explorer 10+ */color:    #FFFFFF; }
+
+[type="checkbox"].filled-in:checked + label:after {
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    z-index: 0; }
