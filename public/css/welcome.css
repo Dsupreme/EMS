@@ -29,7 +29,6 @@ nav ul li.li-no-hover:hover {
     height: 2em !important;
 }
 
-
 #username::-webkit-input-placeholder { /* WebKit browsers */ color:    #FFFFFF; }
 #username:-moz-placeholder { /* Mozilla Firefox 4 to 18 */   color:    #FFFFFF; opacity:  1; }
 #username::-moz-placeholder { /* Mozilla Firefox 19+ */      color:    #FFFFFF; opacity:  1; }
@@ -47,3 +46,36 @@ nav ul li.li-no-hover:hover {
     border: none;
     background-color: transparent;
     z-index: 0; }
+
+#links li a {
+    width: 100%;
+    padding: 0;
+    margin:0.8em 0 0.8em;
+}
+
+.fb-btn {
+    background-color: #3b5998 !important;
+}
+
+.tw-btn {
+    background-color: #FFFFFF !important;
+    color: #326ada !important;
+}
+
+.y-btn {
+    background-color: #cc181e !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4D4D4D;
+    outline: 1px solid slategrey;
+}

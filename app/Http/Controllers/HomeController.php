@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use App\feedback;
+
 class HomeController extends Controller {
 
 	/*
@@ -32,5 +34,12 @@ class HomeController extends Controller {
 	{
 		return view('home');
 	}
+
+    public function feedback()
+    {
+        $feedback = feedback::find(1);
+        return view('feedback.index',compact('feedback'));
+        //return $feedback->name;
+    }
 
 }
